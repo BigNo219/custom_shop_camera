@@ -1,0 +1,34 @@
+name: custom_shop_camera
+description: "Shop_camera_app"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  camera: ^0.10.6
+  path_provider: ^2.1.3
+
+  # .env  파일을 만들기 위한 패키지
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - .env
